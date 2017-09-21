@@ -12,12 +12,12 @@ export class ArticleComponent {
   constructor() {
 
   }
-  voteUp(index: number): boolean{
+  voteUp(index: number): boolean {
     this.article.voteUp();
     return false;
   }
 
-  voteDown(index: number): boolean{
+  voteDown(index: number): boolean {
     this.article.voteDown();
     return false;
   }
